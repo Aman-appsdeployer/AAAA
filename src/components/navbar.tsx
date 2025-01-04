@@ -69,36 +69,31 @@ function DesktopNavigation() {
         <NavItem
           href="/"
           isActive={activeTab === "/" || activeTab === "/#"}
-          onClick={() => setActiveTab("/")}
-        >
+          onClick={() => setActiveTab("/")}>
           Home
         </NavItem>
         <NavItem
           href="/#advisory"
           isActive={activeTab === "/#advisory"}
-          onClick={(e) => handleScrollToSection(e, "/#advisory")}
-        >
+          onClick={(e) => handleScrollToSection(e, "/#advisory")}>
           Advisory
         </NavItem>
         <NavItem
           href="/#nuqiprive"
           isActive={activeTab === "/#nuqiprive"}
-          onClick={(e) => handleScrollToSection(e, "/#nuqiprive")}
-        >
+          onClick={(e) => handleScrollToSection(e, "/#nuqiprive")}>
           Prive
         </NavItem>
         <NavItem
           href="/iris"
           isActive={activeTab === "/iris"}
-          onClick={() => setActiveTab("/iris")}
-        >
+          onClick={() => setActiveTab("/iris")}>
           IRIS
         </NavItem>
         <NavItem
           href="/ethosphere"
           isActive={activeTab === "/ethosphere"}
-          onClick={() => setActiveTab("/ethosphere")}
-        >
+          onClick={() => setActiveTab("/ethosphere")}>
           Ethosphere
         </NavItem>
       </ul>
@@ -161,35 +156,47 @@ function MobileNavigation() {
               </div>
               <nav className="mt-4 tracking-wide">
                 <ul className="space-y-4 tracking-wide">
-                  <NavItem href="/" isActive={false} onClick={() => setActiveTab("/")} >
+                  <NavItem href="/" isActive={false} onClick={() => setActiveTab("/")}>
                     Home
                   </NavItem>
                   <NavItem
                     href="/#advisory"
                     isActive={false}
-                    onClick={(e) => handleScrollToSection(e, "#advisory")}
-                  >
+                    onClick={(e) => handleScrollToSection(e, "#advisory")}>
                     Advisory
                   </NavItem>
                   <NavItem
                     href="/#nuqiprive"
                     isActive={false}
-                    onClick={(e) => handleScrollToSection(e, "#nuqiprive")}
-                  >
+                    onClick={(e) => handleScrollToSection(e, "#nuqiprive")}>
                     Prive
                   </NavItem>
-                  <NavItem href="/iris" isActive={false} onClick={() => setActiveTab("/iris")} >
+                  <NavItem href="/iris" isActive={false} onClick={() => setActiveTab("/iris")}>
                     IRIS
                   </NavItem>
                   <NavItem
                     href="/ethosphere"
                     isActive={false}
-                    onClick={() => setActiveTab("/ethosphere")}
-                  >
+                    onClick={() => setActiveTab("/ethosphere")}>
                     Ethosphere
                   </NavItem>
                 </ul>
               </nav>
+
+              {/* Mobile Sign Up & Login Links */}
+              <div className="mt-6">
+                <a href="http://portal.nuqiwealth.com/signup" target="_blank" rel="noopener noreferrer">
+                  <button className="w-full px-4 py-2 text-sm font-semibold text-black bg-cyan-400 rounded-xl whitespace-nowrap hover:text-black">
+                    Sign Up
+                  </button>
+                </a>
+
+                <a href="http://portal.nuqiwealth.com/signin" target="_blank" rel="noopener noreferrer">
+                  <button className="w-full mt-3 px-4 py-2 text-sm font-semibold text-white bg-transparent border border-cyan-400 rounded-xl hover:bg-cyan-400 hover:text-black">
+                    Login
+                  </button>
+                </a>
+              </div>
             </Popover.Panel>
           </Transition.Child>
         </Transition.Root>
@@ -312,12 +319,16 @@ export function Navbar() {
               >
                 <Popover.Panel className="absolute z-10 justify-center items-center -mr-6 mt-2 w-24 h-14 bg-black border border-cyan-400 rounded-2xl shadow-lg top-full right-0">
                   <div className="flex flex-col py-2">
-                    <button className="flex items-center px-4 text-sm text-white hover:bg-cyan-400 hover:text-black">
-                      <span className="ml-2">Log In</span>
-                    </button>
-                    <button className="flex items-center px-4 py-1 text-sm text-white hover:bg-cyan-400 hover:text-black">
-                      <span className="ml-2">Sign Up</span>
-                    </button>
+                    <a href="http://portal.nuqiwealth.com/signin" target="_blank" rel="noopener noreferrer">
+                      <button className="flex items-center px-4 py-1 text-sm text-white hover:bg-cyan-400 hover:text-black">
+                        <span className="ml-2">Log In</span>
+                      </button>
+                    </a>
+                    <a href="http://portal.nuqiwealth.com/signup" target="_blank" rel="noopener noreferrer">
+                      <button className="flex items-center px-4 py-1 text-sm text-white hover:bg-cyan-400 hover:text-black">
+                        <span className="ml-2">Sign Up</span>
+                      </button>
+                    </a>
                   </div>
                 </Popover.Panel>
               </Transition>
@@ -334,19 +345,12 @@ export function Navbar() {
 
           {/* Sign Up & Login for Desktop */}
           <div className="hidden lg:flex space-x-4 order-2">
-            {/* <button className="px-3 py-2 text-sm font-semibold text-black bg-cyan-400 rounded-xl whitespace-nowrap hover:text-black">
-              Sign Up
-            </button> */}
             <a href="http://portal.nuqiwealth.com/signup" target="_blank" rel="noopener noreferrer">
               <button className="px-3 py-2 text-sm font-semibold text-black bg-cyan-400 rounded-xl whitespace-nowrap hover:text-black">
                 Sign Up
               </button>
             </a>
 
-
-            {/* <button className="px-3 py-2 text-sm font-semibold text-white bg-transparent border border-cyan-400 rounded-xl hover:bg-cyan-400 hover:text-black">
-              Login
-            </button> */}
             <a href="http://portal.nuqiwealth.com/signin" target="_blank" rel="noopener noreferrer">
               <button className="px-3 py-2 text-sm font-semibold text-white bg-transparent border border-cyan-400 rounded-xl hover:bg-cyan-400 hover:text-black">
                 Login
@@ -362,4 +366,3 @@ export function Navbar() {
     </header>
   );
 }
-
