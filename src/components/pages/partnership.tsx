@@ -60,29 +60,34 @@ const Partnership = () => {
             <br />
             {/* GEFI Partnership */}
             <div className="flex items-center gap-4 mb-6">
-              <p className="font-semibold font-poppins text-xl text-cyan-500">
-                Global Ethical Finance Initiative (GEFI)
-              </p>
-              <img
-                src="/tmp_c224faea-f27f-4cbc-ae40-8be3ab977e12.png"
-                alt="GEFI Logo"
-                className="h-[3rem] w-[10rem] object-contain"
-              />
+              <a href="https://www.globalethicalfinance.org" target="_blank" rel="noopener noreferrer">
+                <p className="font-semibold font-poppins text-xl text-cyan-500">
+                  Global Ethical Finance Initiative (GEFI)
+                </p>
+              </a>
+              <a href="https://www.globalethicalfinance.org" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="/tmp_c224faea-f27f-4cbc-ae40-8be3ab977e12.png"
+                  alt="GEFI Logo"
+                  className="h-[3rem] w-[10rem] object-contain"
+                />
+              </a>
             </div>
+
             <p className="text-white font-poppins">
               <span className="text-cyan-500">NUQI</span> proudly partnered with
               GEFI to participate in events leading up to COP28 in the UAE and
               the Climate Summit in Edinburgh. Our association with GEFI
               emphasizes creating value in underserved areas across Africa,
               India, and the UAE. Together, we strive to promote ethical finance
-              solutions that address pressing global challenges. 
+              solutions that address pressing global challenges.
               <a
                 href="https://www.globalethicalfinance.org"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-cyan-500 hover:underline"
+                className="text-cyan-500 hover:underline ml-1"
               >
-                   Learn more about GEFI 
+                Learn more about GEFI
               </a>
               .
             </p>
@@ -90,7 +95,7 @@ const Partnership = () => {
 
           {/* IFA Sport Partnership */}
           <div className="mb-6">
-            <div className="flex items-center gap-4 mb-6">
+            {/* <div className="flex items-center gap-4 mb-6">
               <p className="font-poppins font-semibold text-xl text-cyan-500">
                 IFA Sport
               </p>
@@ -99,21 +104,34 @@ const Partnership = () => {
                 alt="IFA Sport Logo"
                 className="h-[3rem] w-[5rem] object-contain"
               />
+            </div> */}
+            <div className="flex items-center gap-4 mb-6">
+              <a href="https://ifasport.com" target="_blank" rel="noopener noreferrer">
+                <p className="font-poppins font-semibold text-xl text-cyan-500">IFA Sport</p>
+              </a>
+              <a href="https://ifasport.com" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="/tmp_2538863c-7ecc-45dc-88fb-a36b91146e6d.png"
+                  alt="IFA Sport Logo"
+                  className="h-[3rem] w-[5rem] object-contain"
+                />
+              </a>
             </div>
+
             <p className="text-gray-300 font-poppins">
               In collaboration with IFA Sport, a decade-old academy in the UAE,
               NUQI is making strides in shaping the future of over 1,000
               families. By integrating financial literacy education into their
               youth programs, we aim to empower youngsters at a formative age,
               equipping them with the tools they need for a secure and informed
-              financial future.  
+              financial future.
               <a
                 href="https://ifasport.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-cyan-500 hover:underline"
+                className="text-cyan-500 hover:underline ml-1"
               >
-                  Learn more about IFA Sport
+                Learn more about IFA Sport
               </a>
               .
             </p>
@@ -146,4 +164,5 @@ const Partnership = () => {
 };
 
 export default Partnership;
+
 
