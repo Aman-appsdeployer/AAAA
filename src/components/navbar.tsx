@@ -624,7 +624,7 @@ function CountrySelect() {
           if (value === "india") {
             window.location.href = "https://in.nuqiwealth.com/"; // Correct link for India
           } else if (value === "uae") {
-            window.location.href = "https://ae.nuqiwealth.com/"; // Correct link for UAE
+            window.location.href = "https://uae.nuqiwealth.com/"; // Correct link for UAE
           }
         }}
       >
