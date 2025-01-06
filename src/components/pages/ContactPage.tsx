@@ -37,7 +37,7 @@ export const ContactsPage: React.FC = () => {
         </div>
       </div>
       {/* Header */}
-      <h1 className="self-center text-center sm:ml-4 -mt-10 text-3xl font-poppins tracking-wide leading-loose text-white max-md:text-2xl">
+      <h1 className="self-center -mt-10 text-3xl font-poppins tracking-wide leading-loose text-white max-md:text-2xl">
         Your questions, Our expertise - Let's talk
       </h1>
 
