@@ -12,7 +12,7 @@ export const ContactsPage: React.FC = () => {
 
   return (
     <div className="flex flex-col bg-black min-h-screen pb-20">
-      <div className="h-[10rem] w-full flex -mt-8 flex-col items-center justify-center overflow-hidden rounded-md">
+      <div className="h-[10rem] -mt-8  w-full flex  flex-col items-center justify-center overflow-hidden rounded-md">
         <h2 className="text-3xl pb-5 font-poppins font-semibold leading-6 tracking-wide text-cyan-400 hover:text-cyan-400 sm:text-4xl lg:text-5xl">
           Contact Us
         </h2>
@@ -37,7 +37,7 @@ export const ContactsPage: React.FC = () => {
         </div>
       </div>
       {/* Header */}
-      <h1 className="self-center -mt-10 text-3xl font-poppins tracking-wide leading-loose text-white max-md:text-2xl">
+      <h1 className="self-center text-center sm:ml-4 -mt-10 text-3xl font-poppins tracking-wide leading-loose text-white max-md:text-2xl">
         Your questions, Our expertise - Let's talk
       </h1>
 

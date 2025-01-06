@@ -37,7 +37,7 @@ export const ImageCardContainer: React.FC = () => {
             borderRadius: "20px",
           }}
         >
-          <h2 className="text-3xl lg:text-4xl font-poppins text-cyan-400 mb-6">Coming Soon On</h2>
+          <h2 className="text-3xl lg:text-3xl font-poppins text-cyan-400 mb-6">Coming Soon On</h2>
           <div className="flex gap-16">
             {imageData.slice(0, 2).map((image) => (
               <ImageCard key={image.id} imageSrc={image.src} imageAlt={image.alt} />
