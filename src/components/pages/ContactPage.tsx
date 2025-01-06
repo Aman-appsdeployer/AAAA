@@ -14,7 +14,7 @@ export const ContactsPage: React.FC = () => {
     <div className="flex flex-col bg-black min-h-screen pb-20">
       <div className="h-[10rem] -mt-8  w-full flex  flex-col items-center justify-center overflow-hidden rounded-md">
         <h2 className="text-3xl pb-5 font-poppins font-semibold leading-6 tracking-wide text-cyan-400 hover:text-cyan-400 sm:text-4xl lg:text-5xl">
-          Contact Us
+          Contact <span className="text-white">Us</span>
         </h2>
         <div className="w-[40rem] h-10 relative">
           {/* Gradients */}
