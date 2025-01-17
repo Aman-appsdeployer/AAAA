@@ -307,7 +307,7 @@ const Privacy = () => {
             “Target Asset Allocation” means a portfolio strategy that involves setting target allocations for various asset classes and rebalancing periodically. The portfolio is rebalanced to the original allocations when they deviate significantly from the initial setting due to differing returns from the various assets.<br/><br/>
             “Website” means www.nuqiwealth.com.<br/><br/>
 
-                          <p className="font-bold text-xl text-white">1.	Appointment</p> <br/>
+                          <p className="font-bold text-xl text-center text-white">1.	Appointment</p> <br/>
 
 
             This Agreement will become legally binding and we will start providing our services to you once we have received confirmation of your completed Account and satisfactory anti-money laundering verification information. This Agreement supersedes all previous terms and conditions you have with us. In addition to this Agreement, which includes the Schedules, the terms of Nuqi’s Privacy Policy and the product specific terms apply to you. The privacy policy, and all other agreements entered into separately between you and Nuqi are deemed supplementary terms that are an integral part of these terms and shall have the same legal effect. Your use of Nuqi services is deemed your acceptance of these and the above supplementary terms.<br/><br/>
@@ -345,7 +345,7 @@ const Privacy = () => {
 
             4.2.	You will execute and deliver any authorizations and documents as may be reasonably necessary for Nuqi to carry out its services under this Agreement.<br/><br/>
 
-                          <p className="font-bold text-xl text-white">5.	Your obligations</p><br/>
+                          <p className="font-bold text-xl text-white">5.	Your obligations</p> 
 
 
             5.1.	It is your responsibility to ensure that information or documentation provided by you to Nuqi is correct, accurate, complete, up- to-date and not misleading in any respect and that you have notified Nuqi of any information which could be relevant to the performance of Nuqi’s duties under this Agreement. You will indemnify us and hold us harmless from any liability arising out of any failure by you to provide us with any information or documents that we request, as well as for any error, omission, inadequacy or inaccuracy in any information and/or documents that you provide to us.<br/>
@@ -359,7 +359,7 @@ const Privacy = () => {
 
             5.5.	We reserve the right to request additional information and/or documentation in order to be satisfied that your dealings with us, including, but not limited to deposits and withdrawals are legitimate and/or for any other reason to comply with our regulatory obligations. You understand and accept that under such circumstances there may be a delay with processing the transaction, and/or the transaction may be rejected.<br/><br/>
 
-                          <p className="font-bold text-xl text-white">6.	Instructions and communication</p> <br/>
+                          <p className="font-bold text-xl text-white">6.	Instructions and communication</p> 
 
 
             6.1.	Instructions may be given through electronic communication, including but not limited to email or via your Account, or by scheduling a call via your Nuqi dashboard. All written communications should be directed to Nuqi’s registered office at the address set out at the head of this Agreement and on our website. Complaints should be notified to Nuqi in accordance with the complaints policy as stated below. <br/>
@@ -379,7 +379,7 @@ const Privacy = () => {
 
 
 
-                        <p className="font-bold text-xl text-white"> 7.	Delegation and use of third parties </p> <br/>
+                        <p className="font-bold text-xl text-white"> 7.	Delegation and use of third parties </p> 
 
 
             7.1.	Nuqi may appoint any affiliate or person, delegate or agent of a third party to perform part or all of any of Nuqi’s obligations under this Agreement, provided that in doing so Nuqi’s responsibility to you for these obligations shall not be reduced. <br/>
@@ -387,14 +387,14 @@ const Privacy = () => {
             7.2.	In performing its obligations to you, Nuqi may appoint or use the services of certain third-party service providers, including a) price, market or valuation information or assessment services and <br/>b) broking, dealing or registrar services. Nuqi shall not be responsible or liable to you for the performance by these parties or their services provided Nuqi has exercised reasonable care and diligence in their selection of the same.<br/><br/>
 
 
-                         <p className="font-bold text-xl text-white">8.	Potential conflicts of interest and disclosures </p> <br/>
+                         <p className="font-bold text-xl text-white">8.	Potential conflicts of interest and disclosures </p> 
 
 
             8.1.	Nuqi and its affiliates (together, the “Group”) provide a number of services to a range of clients and there may be times when there is a conflict between the Group’s interest and the duty owed to a client, or a conflict between the differing interests of two or more clients to whom in each case the Group owes a duty. Nuqi and any affiliate may affect transactions in which Nuqi, any affiliate, another client of Nuqi or of an affiliate has, directly or indirectly, a material interest or a relationship of any description with another party, which involves or may involve a potential conflict with Nuqi’s duty to you. <br/>
 
             8.2.	Nuqi is required to have in place arrangements with a view to taking all reasonable steps to prevent such conflicts of interest constituting or giving rise to a material risk of damage to the interests of its clients. Nuqi will ensure that such transactions are affected on terms which are not materially less favourable to you than if the conflict or potential conflict of interest had not existed. Nuqi has a Conflicts of Interest Policy that sets out the types of actual or potential conflict of interest which affect our business and includes details of how these are managed. Nuqi’s regulatory obligations in respect of conflicts of interest is set out in Schedule 2. <br/><br/>
 
-                      <p className="font-bold text-xl text-white">  9.	Fees and Charges </p><br/>
+                      <p className="font-bold text-xl text-white">  9.	Fees and Charges </p>
 
 
             9.1.	Fees payable for the services provided to you by Nuqi are exclusive of any VAT or other similar taxes, which if payable will be payable by you. <br/>
@@ -408,7 +408,7 @@ const Privacy = () => {
 
             You may have been introduced to us by a third party. We do not accept responsibility for any conduct, action, representation or statement of such third party. We may share our fees with or provide such other benefit as we may deem appropriate to such third party or any other third party. <br/><br/>
 
-                         <p className="font-bold text-xl text-white">11.	Taxation</p><br/>
+                         <p className="font-bold text-xl text-white">11.	Taxation</p>
 
 
             11.1.	You remain responsible for the management of your affairs for tax and accounting purposes. Nuqi shall not provide you with tax or accounting advice or services. Nuqi shall have no responsibility to consider your tax status in providing the services under this Agreement.<br/>
@@ -418,13 +418,13 @@ const Privacy = () => {
 
 
 
-                        <p className="font-bold text-xl text-white">12.	Hardware and Software Requirements </p> <br/><br/>
+                        <p className="font-bold text-xl text-white">12.	Hardware and Software Requirements </p> 
 
 
             12.1.	You understand that in order to receive electronic deliveries, you must have access to a computer or Mobile Device with Internet access, a valid e-mail address, and the ability to download such applications as Nuqi may specify and to which you have access. You also understand
             that if you wish to download, print, or save any information you wish to retain, you must have access to a printer or other device in order to do so. <br/><br/>
 
-              <p className="font-bold text-xl text-white"> 13.	Liability</p> <br/>
+              <p className="font-bold text-xl text-white"> 13.	Liability</p> 
 
 
             13.1.	Nuqi gives no assurance or guarantee that the value of investments in your Account will not go down or that the investment held in your Account will generate profits or income, or that any investment or savings goals you may have (even where you have notified us of them) will be achieved. <br/>
@@ -453,7 +453,7 @@ const Privacy = () => {
 
             13.10.	Nothing in this Agreement shall exclude or restrict any liability which cannot be excluded in accordance with applicable law. <br/> <br/>
 
-                         <p className="font-bold text-xl text-white"> 14.	Complaints </p> <br/><br/>
+                         <p className="font-bold text-xl text-white"> 14.	Complaints </p> 
 
 
             14.1.	Should you have a complaint, kindly submit your complaint in writing to: grivances@nuqiwealth.me<br/>
@@ -469,7 +469,7 @@ const Privacy = () => {
 
             14.7.	We will try to resolve your complaint as quickly as possible and to your complete satisfaction. If we are unable to satisfactorily address your complaint, you may be able to refer your complaint to the DFSA for independent assessment. Should you wish to contact them you can do so in writing at: You may submit a complaint by completing the online Complaints Form available on the DFSA Complaints Portal on the DFSA website at: http://www.dfsa.ae/Pages/Complaints/Complaints.aspx  If you do not have access to a computer then you may submit a written complaint to the DFSA via facsimile to +971 4 362 0801 or by letter addressed to the DFSA attaching relevant documents and information. Complaints should be addressed to: DFSA Complaints PO Box 75850 Dubai.<br/><br/>
 
-                       <p className="font-bold text-xl text-white"> 15.	Termination & Account Suspension  </p> <br/><br/>
+                       <p className="font-bold text-xl text-white"> 15.	Termination & Account Suspension  </p> 
 
 
             15.1.	You may close your Account (and so terminate this Agreement) and redeem your invested funds at any time by instructing us to do so through the functions on the Nuqi mobile App.<br/>
@@ -712,12 +712,7 @@ const Privacy = () => {
             2.2.	Managing conflicts: Nuqi is required to maintain and operate effective organisational and administrative arrangements with a view to taking all reasonable steps to prevent conflicts of interest from constituting or giving rise to a material risk of damage to the interests of its clients, including establishing and maintaining effective information barriers to restrict the communication of relevant information.;<br/>
             2.3.	Record of conflicts: Nuqi is required to keep and regularly update a record of the kinds of service or activity carried out by Nuqi or on Nuqi’s behalf in which a conflict of interest entailing a material risk of damage to the interests of one or more clients has arisen or, in the case of an ongoing service or activity, may arise;<br/>
             2.4.	Disclosure of conflicts: Before providing services to a client, Nuqi is required to disclose to clients on a durable medium the nature and source of any conflict of interest that risks damage to the interest of the client and which are not avoided by Nuqi’s organizational and administrative arrangements;<br/>
-            2.5.	Conflicts Policy: Nuqi is required to establish, implement and maintain a effective conflict of interest policy that is set out in writing and is appropriate to the size and organisation of the Nuqi and the nature, scale and complexity of Nuqi’s business.<br/>
-
-
-
-
-
+            2.5.	Conflicts Policy: Nuqi is required to establish, implement and maintain a effective conflict of interest policy that is set out in writing and is appropriate to the size and organisation of the Nuqi and the nature, scale and complexity of Nuqi’s business.<br/><br/>
 
                         <p className="font-bold text-xl text-center text-white"> SCHEDULE 3</p><br/>
 
@@ -747,7 +742,7 @@ const Privacy = () => {
             “Target Asset Allocation” means a portfolio strategy that involves setting target allocations for various asset classes and rebalancing periodically. The portfolio is rebalanced to the original allocations when they deviate significantly from the initial setting due to differing returns from the various assets.<br/>
             “Website” means www.nuqiwealth.com<br/><br/>
 
-                         <p className="font-bold text-xl text-white">1.	Appointment </p><br/><br/>
+                         <p className="font-bold text-xl text-center text-white">1.	Appointment </p><br/>
 
 
             This Agreement sets out the terms on which Nuqi may recommend a Plan to you and provide you with certain investment advice in relation to your Accounts. This Agreement will become legally binding and we will start providing our services to you once we have received confirmation of your completed Account and satisfactory anti-money laundering verification information. This Agreement supersedes all previous terms and conditions you have with us.<br/>
@@ -838,8 +833,8 @@ const Privacy = () => {
                         <p className="font-bold text-xl text-white">7.	Execution-only services  </p>
 
 
-            7.1.	If you receive execution-only services from us, we may, when we receive specific instructions from you, provide dealing services for (i) shares in foreign companies, (ii) sukuk, notes, certificates of deposit, commercial paper or other Shariah compliant instruments, including government, public agency, municipal and corporate shares traded on a stock exchange or organised trading facility<br/>
-            (iii) depository receipts or other types of instrument relating to investments falling within (i) or (ii) above; or (iv) trusts, open-ended investment companies, mutual funds and similar schemes. If this is the case, the below terms will apply. We will not advise you about the merits of any transactions and you are solely responsible for the investment decisions made and for evaluating the suitability of any investments for your personal circumstance. We will be dealing on an Execution-Only Basis and you confirm that you have the necessary knowledge and experience to make informed investment decisions.<br/>
+            7.1.	If you receive execution-only services from us, we may, when we receive specific instructions from you, provide dealing services for<br/> (i) shares in foreign companies,<br/> (ii) sukuk, notes, certificates of deposit, commercial paper or other Shariah compliant instruments, including government, public agency, municipal and corporate shares traded on a stock exchange or organised trading facility<br/>
+            (iii) depository receipts or other types of instrument relating to investments falling within (i) or (ii) above; or<br/> (iv) trusts, open-ended investment companies, mutual funds and similar schemes. If this is the case, the below terms will apply. We will not advise you about the merits of any transactions and you are solely responsible for the investment decisions made and for evaluating the suitability of any investments for your personal circumstance. We will be dealing on an Execution-Only Basis and you confirm that you have the necessary knowledge and experience to make informed investment decisions.<br/>
 
             7.2.	We shall not advise you about the merits of a particular transaction if we reasonably believe that, when you give us the order for that transaction, you are not expecting our advice and are dealing on an Execution-Only Basis. If the transaction relates to non-complex financial instruments such as shares and bond, we will tell you at the time that we will carry out your order on that basis and we will not have to make sure that the transaction is suitable or appropriate for you. Because of this, you will not benefit from the protections of the relevant DFSA Rules which dictate when we need to assess the suitability or appropriateness of the transaction for you.<br/><br/>
 
@@ -857,7 +852,7 @@ const Privacy = () => {
 
             9.1.	In effecting transactions in your Account, Nuqi will pass your instructions to the Custodian to buy and sell shares on your behalf, initially based on your approval of the Plan and any further specific consents you may provide to Nuqi. <br/>
 
-            9.2.	All transactions will be affected in accordance with the rules and regulations of the relevant market or exchange, and that Nuqi may take all such steps as may be required or permitted by such rules and regulations and/or by good market practice including, where appropriate, parting with possession of documents of title representing investments in the Account. <br/>
+            9.2.	All transactions will be affected in accordance with the rules and regulations of the relevant market or exchange, and that Nuqi may take all such steps as may be required or permitted by such rules and regulations and/or by good market practice including, where appropriate, parting with possession of documents of title representing investments in the Account. <br/><br/>
 
 
                           <p className="font-bold text-xl text-white">10.	Liability</p>
@@ -872,17 +867,17 @@ const Privacy = () => {
               <p className="font-bold text-xl text-white">            11.	General</p>
 
 
-            11.1.	No failure on the part of any party to exercise, and no delay in exercising, any right or remedy under this Agreement will operate as a waiver thereof nor will any single or partial exercise of any right or remedy preclude any other or further exercise thereof or the exercise of any other right or remedy. The rights and remedies provided in this Agreement are cumulative and not exclusive of any rights or remedies provided by law.
+            11.1.	No failure on the part of any party to exercise, and no delay in exercising, any right or remedy under this Agreement will operate as a waiver thereof nor will any single or partial exercise of any right or remedy preclude any other or further exercise thereof or the exercise of any other right or remedy. The rights and remedies provided in this Agreement are cumulative and not exclusive of any rights or remedies provided by law.<br/>
 
-            11.2.	In the event any provision of this Agreement is adjudicated to be void, illegal, invalid, or unenforceable, the remaining terms and provisions of this Agreement shall not be affected, and each of such remaining terms and provisions shall be valid and enforceable to the fullest extent permitted by law.
+            11.2.	In the event any provision of this Agreement is adjudicated to be void, illegal, invalid, or unenforceable, the remaining terms and provisions of this Agreement shall not be affected, and each of such remaining terms and provisions shall be valid and enforceable to the fullest extent permitted by law.<br/>
 
             11.3.	A person who is not a party to this Agreement has no rights to enforce any term.
 
-            11.4.	This Agreement, the Schedules and any other documents annexed to or incorporated by reference are to be construed as one document constituting the agreement of the parties as to the subject matter of this Agreement.
+            11.4.	This Agreement, the Schedules and any other documents annexed to or incorporated by reference are to be construed as one document constituting the agreement of the parties as to the subject matter of this Agreement.<br/>
 
-            11.5.	This Agreement constitutes the entire agreement between the parties and supersedes and extinguishes all previous agreements, promises, assurances, warranties, representations and understandings between them, whether written or oral, relating to its subject matter.
+            11.5.	This Agreement constitutes the entire agreement between the parties and supersedes and extinguishes all previous agreements, promises, assurances, warranties, representations and understandings between them, whether written or oral, relating to its subject matter.<br/>
 
-            11.6.	You and Nuqi agree that neither party will have any remedy in respect of any statement, representation, assurance or warranty (whether made innocently or negligently) that is not set out in this Agreement. Each party agrees that it shall have no claim for innocent or negligent misrepresentation or negligent misstatement based on any statement in this Agreement.
+            11.6.	You and Nuqi agree that neither party will have any remedy in respect of any statement, representation, assurance or warranty (whether made innocently or negligently) that is not set out in this Agreement. Each party agrees that it shall have no claim for innocent or negligent misrepresentation or negligent misstatement based on any statement in this Agreement.<br/><br/>
 
 
 
@@ -891,85 +886,85 @@ const Privacy = () => {
 
             12.1.	The provision of services to you under this Agreement will be governed by and construed in accordance with the laws of England. The exclusive place of jurisdiction for any disputes arising out of and/or in connection with this Agreement will be the courts of the DIFC.<br/>
 
-            12.2.	However, we reserve the right to take legal action against you before the courts of the country in which you are resident or before any other competent authority.<br/>
+            12.2.	However, we reserve the right to take legal action against you before the courts of the country in which you are resident or before any other competent authority.<br/><br/>
 
-                          <p className="font-bold text-xl text-white">SCHEDULE 1</p>
+                          <p className="font-bold text-xl text-white">SCHEDULE 1</p> 
 
 
             Plan
 
             The plan, presented online during the summary of the terms & conditions, can also be found by logging in to your Nuqi application dashboard.<br/><br/>
 
-                          <p className="font-bold text-xl text-white">Nuqi Save agreement</p>
+                          <p className="font-bold text-xl text-center text-white">Nuqi Save agreement</p> <br/>
 
 
-            These terms and conditions ( the “Nuqi Save agreement”) sets out the specific terms that will apply to you when using Nuqi Save on the Nuqi platform which is provided by Nuqi Digital Wealth Limited (“Nuqi”, “us”, “our”, “we”), in relation to the user (“Client”, “you”, “your”). Nuqi is a company incorporated and registered in the Dubai International Financial Centre(“DIFC”) with company number CL3824, whose registered office is , at office 501, Innovation One Building, DIFC, Dubai, United Arab Emirates and is authorized and regulated by the DUBAI Financial Services Authority (“DFSA”) with License number F007613.
-            The terms in this apply to you in addition to the General Terms and Conditions, which apply to all of our services and not just our Save product.
+            These terms and conditions ( the “Nuqi Save agreement”) sets out the specific terms that will apply to you when using Nuqi Save on the Nuqi platform which is provided by Nuqi Digital Wealth Limited (“Nuqi”, “us”, “our”, “we”), in relation to the user (“Client”, “you”, “your”). Nuqi is a company incorporated and registered in the Dubai International Financial Centre(“DIFC”) with company number CL3824, whose registered office is , at office 501, Innovation One Building, DIFC, Dubai, United Arab Emirates and is authorized and regulated by the DUBAI Financial Services Authority (“DFSA”) with License number F007613.<br/>
+            The terms in this apply to you in addition to the General Terms and Conditions, which apply to all of our services and not just our Save product.<br/>
 
-            Capitalised words in this Nuqi Save agreement will have the same meaning which are given to those word in the General Terms and Conditions. If a term of this Nuqi Save agreement conflicts with or differs from a term in the General Terms and Conditions, this Nuqi Save agreement will apply.
-            Please take the time to read and understand these Terms before using these services so that you are aware of your legal rights and obligations. In this Agreement:
-            “Account/s” means each account opened by you pursuant to this Agreement.
+            Capitalised words in this Nuqi Save agreement will have the same meaning which are given to those word in the General Terms and Conditions. If a term of this Nuqi Save agreement conflicts with or differs from a term in the General Terms and Conditions, this Nuqi Save agreement will apply.<br/>
+            Please take the time to read and understand these Terms before using these services so that you are aware of your legal rights and obligations. In this Agreement:<br/>
+            “Account/s” means each account opened by you pursuant to this Agreement.<br/>
 
-            “Custodian/ Broker” means Nuqi Global Limited (“Nuqi Global”), a broker/custodian, which a FSC regulated Firm with the registered address at 7A, Mayer Street, Port Louis, Republic of Mauritius
+            “Custodian/ Broker” means Nuqi Global Limited (“Nuqi Global”), a broker/custodian, which a FSC regulated Firm with the registered address at 7A, Mayer Street, Port Louis, Republic of Mauritius<br/>
 
 
-            “Custody Account” means the securities brokerage account opened by us in connection with this Agreement.
+            “Custody Account” means the securities brokerage account opened by us in connection with this Agreement.<br/>
 
-            “DFSA Rules” means the subsidiary legislation made under DIFC law or any other law applicable in the DIFC which is administered by the DFSA.
+            “DFSA Rules” means the subsidiary legislation made under DIFC law or any other law applicable in the DIFC which is administered by the DFSA.<br/>
 
-            “Execution-Only Basis” means we will carry out your instructions to buy and sell securities on your behalf and at your own risk, without getting any guidance or advice about the securities from us.
-            “Risk Warnings” means the risk warnings set out on the Website. “Website” means www.nuqiwealth.com
-            1.	Appointment
+            “Execution-Only Basis” means we will carry out your instructions to buy and sell securities on your behalf and at your own risk, without getting any guidance or advice about the securities from us.<br/>
+            “Risk Warnings” means the risk warnings set out on the Website. “Website” means www.nuqiwealth.com<br/><br/>
+            <p className="font-bold text-xl text-white">1.	Appointment             </p> 
 
-            1.1.	Nuqi provides you with an advisory service with a view to you investing your chosen lump sum and/or regular payments into one of our standard investment portfolios. We will ask you certain questions about your financial circumstances such as your level of debt and type of income, to help us identify which portfolio is suitable for you to invest in. We will not advise you on any existing investments you may currently hold, the efficiency of your approach to paying off any debts, tax efficiency or whether any particular income needs will be met. Should you need advice on your wider personal financial circumstances, you may contact an independent financial adviser.
+            1.1.	Nuqi provides you with an advisory service with a view to you investing your chosen lump sum and/or regular payments into one of our standard investment portfolios. We will ask you certain questions about your financial circumstances such as your level of debt and type of income, to help us identify which portfolio is suitable for you to invest in. We will not advise you on any existing investments you may currently hold, the efficiency of your approach to paying off any debts, tax efficiency or whether any particular income needs will be met. Should you need advice on your wider personal financial circumstances, you may contact an independent financial adviser.<br/><br/>
 
            <p className="font-bold text-xl text-white"> 2.	Scope of the Service              </p>
 
 
-            2.1.	Nuqi will assist in the set-up of an Account for you, and you authorize us to:
-            a)	at your request/instruction, provide you with investment advisory and management services (within a range as may be specified by us) and accordance with the terms of the Agreement;
-            b)	provide you with a personal recommendation as set out in your Plan. This recommends that monies in your Account are allocated into a portfolio of investments suitable for you. This is based on our consideration of your responses to our questions and any other specific circumstances that you communicate to us;
-            c)	transmit buy/sell trade orders on your behalf to our Custodian/Broker for execution, based on your instructions.
+            2.1.	Nuqi will assist in the set-up of an Account for you, and you authorize us to:<br/>
+            a)	at your request/instruction, provide you with investment advisory and management services (within a range as may be specified by us) and accordance with the terms of the Agreement;<br/>
+            b)	provide you with a personal recommendation as set out in your Plan. This recommends that monies in your Account are allocated into a portfolio of investments suitable for you. This is based on our consideration of your responses to our questions and any other specific circumstances that you communicate to us;<br/>
+            c)	transmit buy/sell trade orders on your behalf to our Custodian/Broker for execution, based on your instructions.<br/>
 
 
-            2.2.	You will deposit your monies directly into a trust account as specified by us. This trust account will be held on our behalf by a licensed, registered financial institution, authorised to conduct banking business in the relevant jurisdiction. You understand that the laws and practices relating to trust accounts in the relevant jurisdiction may differ to those of others, and this may affect your ability to recover the funds deposited in the trust account.
+            2.2.	You will deposit your monies directly into a trust account as specified by us. This trust account will be held on our behalf by a licensed, registered financial institution, authorised to conduct banking business in the relevant jurisdiction. You understand that the laws and practices relating to trust accounts in the relevant jurisdiction may differ to those of others, and this may affect your ability to recover the funds deposited in the trust account.<br/>
 
-            2.3.	We have opened the Custody Account. We will, in accordance with the terms of this Agreement, use your funds to buy and sell investments on your behalf through the Account, which is a consolidated account we use for all our clients.
+            2.3.	We have opened the Custody Account. We will, in accordance with the terms of this Agreement, use your funds to buy and sell investments on your behalf through the Account, which is a consolidated account we use for all our clients.<br/>
 
-            2.4.	We may hold monies received on your account in an omnibus client trust account together with monies that we hold for other clients. This means that such monies in the trust account will be commingled with the monies of our other clients
-            2.5.	In the event of insolvency of the bank, custodian or other relevant financial institution holding the omnibus client trust account, you understand that you may not be able to fully recover your monies. Further, as your monies are commingled with those of other clients in the same account, you may potentially be exposed to the losses of other clients.
+            2.4.	We may hold monies received on your account in an omnibus client trust account together with monies that we hold for other clients. This means that such monies in the trust account will be commingled with the monies of our other clients<br/>
+            2.5.	In the event of insolvency of the bank, custodian or other relevant financial institution holding the omnibus client trust account, you understand that you may not be able to fully recover your monies. Further, as your monies are commingled with those of other clients in the same account, you may potentially be exposed to the losses of other clients.<br/>
 
-            2.6.	You agree that:
-            (a)	we may, whether directly or indirectly, hold investments purchased for you in the Custody Account which is an omnibus account, aggregated with other investments of our other clients, and/or the clients of the Custodian, and such investments may not be held in your name. This means that your investments will be commingled with the assets of our other clients and/or the clients of the Custodian. Given such commingling, the investments may be registered collectively in our name, the name of the Custodian, a sub-custodian and/or any other third party and your entitlements may not be identifiable as separate certificates, titles or electronic records. You agree that if there are any dividends, interests, rights, benefits or other proceeds in relation to your investments resulting from such commingling, we shall have full discretion as to the allotment of such dividends, interests, rights, benefits or other proceeds;
-            (b)	In the event of insolvency or default of the Custodian, you understand that you may not be able to fully recover your investments held in the Custody Account. Any shortfall in the investments may be shared among you and our other clients and/or the clients of the Custodian pro rata. As your investments are commingled with those of other clients in the same account, you may potentially be exposed to the losses of other clients;
-            (c)	provided that we have selected or engaged such Custodian in good faith, we shall not be liable to you for any and all loss suffered or incurred by you as a result of any act, omission or insolvency of such Custodian;
-            (d)	where investments are denominated in a foreign currency, the investments may be held in an omnibus custody account with an entity which is licensed, registered or authorised to act as a custodian in the country or territory where such investments are held. In such case, you understand that the laws and practices relating to custody accounts in the relevant jurisdiction may differ. Depending on the jurisdiction, this may affect your ability to recover the investments deposited in the Custody Account;
-            (e)	your investments may be treated as fungible with other investments in the Custody Account and therefore, we are not obliged to deliver any specific investments to you and may instead sell the investments on your behalf at your expense and transfer to your Account the proceeds of such sale (if any).
+            2.6.	You agree that:<br/>
+            (a)	we may, whether directly or indirectly, hold investments purchased for you in the Custody Account which is an omnibus account, aggregated with other investments of our other clients, and/or the clients of the Custodian, and such investments may not be held in your name. This means that your investments will be commingled with the assets of our other clients and/or the clients of the Custodian. Given such commingling, the investments may be registered collectively in our name, the name of the Custodian, a sub-custodian and/or any other third party and your entitlements may not be identifiable as separate certificates, titles or electronic records. You agree that if there are any dividends, interests, rights, benefits or other proceeds in relation to your investments resulting from such commingling, we shall have full discretion as to the allotment of such dividends, interests, rights, benefits or other proceeds;<br/>
+            (b)	In the event of insolvency or default of the Custodian, you understand that you may not be able to fully recover your investments held in the Custody Account. Any shortfall in the investments may be shared among you and our other clients and/or the clients of the Custodian pro rata. As your investments are commingled with those of other clients in the same account, you may potentially be exposed to the losses of other clients;<br/>
+            (c)	provided that we have selected or engaged such Custodian in good faith, we shall not be liable to you for any and all loss suffered or incurred by you as a result of any act, omission or insolvency of such Custodian;<br/>
+            (d)	where investments are denominated in a foreign currency, the investments may be held in an omnibus custody account with an entity which is licensed, registered or authorised to act as a custodian in the country or territory where such investments are held. In such case, you understand that the laws and practices relating to custody accounts in the relevant jurisdiction may differ. Depending on the jurisdiction, this may affect your ability to recover the investments deposited in the Custody Account;<br/>
+            (e)	your investments may be treated as fungible with other investments in the Custody Account and therefore, we are not obliged to deliver any specific investments to you and may instead sell the investments on your behalf at your expense and transfer to your Account the proceeds of such sale (if any). <br/> <br/>
 
 
                      <p className="font-bold text-xl text-white">    3.	Scope of our advice </p>
 
 
-            3.1.	Unless otherwise agreed with you from time to time, Nuqi provides a restricted advice service in that we will only advise you on your Target Asset Allocation and not on other types of investments that might be relevant to a Retail Client investor. Examples of other investments will include life policies, structured products, or investment trusts. Unless otherwise agreed with you, we do not provide advice on direct investment in stocks and shares.
+            3.1.	Unless otherwise agreed with you from time to time, Nuqi provides a restricted advice service in that we will only advise you on your Target Asset Allocation and not on other types of investments that might be relevant to a Retail Client investor. Examples of other investments will include life policies, structured products, or investment trusts. Unless otherwise agreed with you, we do not provide advice on direct investment in stocks and shares.<br/>
 
-            3.2.	Following our assessment of your objectives and investor profile, we will recommend in your Plan the Target Asset Allocation that we consider suitable for you.
+            3.2.	Following our assessment of your objectives and investor profile, we will recommend in your Plan the Target Asset Allocation that we consider suitable for you.<br/>
 
-            3.3.	We will keep the Target Asset Allocation under review to ensure it remains suitable for you, given the investor profile set out in your Plan. Our recommended Target Asset Allocations may be made with a view to long term investment, taking into account your time horizon and risk tolerance for falls in the value of your investment, as recorded in your Plan. Nuqi may elect not to change your Target Asset Allocation to take account of short or medium term performance.
+            3.3.	We will keep the Target Asset Allocation under review to ensure it remains suitable for you, given the investor profile set out in your Plan. Our recommended Target Asset Allocations may be made with a view to long term investment, taking into account your time horizon and risk tolerance for falls in the value of your investment, as recorded in your Plan. Nuqi may elect not to change your Target Asset Allocation to take account of short or medium term performance.<br/>
 
-            3.4.	Subject to your prior consent, we may proceed to act on our recommended changes to a Plan without obtaining further consent from you, and you are deemed to have agreed to our recommended changes to the Plan.
+            3.4.	Subject to your prior consent, we may proceed to act on our recommended changes to a Plan without obtaining further consent from you, and you are deemed to have agreed to our recommended changes to the Plan.<br/>
 
-            3.5.	You agree that you are not obliged to accept any advice provided by, or recommendation made by us (including any investment strategy) and unless otherwise provided for, you retain sole control and authority over your trading and investment decisions and shall be entitled to determine, in your sole discretion, whether to accept, reject or implement an advice, recommendation or opinion (including any investment strategy) made by us.
+            3.5.	You agree that you are not obliged to accept any advice provided by, or recommendation made by us (including any investment strategy) and unless otherwise provided for, you retain sole control and authority over your trading and investment decisions and shall be entitled to determine, in your sole discretion, whether to accept, reject or implement an advice, recommendation or opinion (including any investment strategy) made by us.<br/>
 
-            3.6.	You may at any time request to vary the investment strategy recommended by us, provided that we are not obliged to agree to provide the services hereunder to you on the basis of your proposed investment strategy. You further understand that should you choose not to accept our recommendation, you shall be solely responsible for ensuring that your proposed investment strategy and investments entered into are suitable and appropriate for you, taking into account your specific objectives, financial situation, investment experience, knowledge and particular needs.
+            3.6.	You may at any time request to vary the investment strategy recommended by us, provided that we are not obliged to agree to provide the services hereunder to you on the basis of your proposed investment strategy. You further understand that should you choose not to accept our recommendation, you shall be solely responsible for ensuring that your proposed investment strategy and investments entered into are suitable and appropriate for you, taking into account your specific objectives, financial situation, investment experience, knowledge and particular needs.<br/>
 
-            3.7.	We will act on your instructions, indicated by your approval of the Plan, and pursuant thereto you agree that:
-            a)	we may recommend Investments to you or otherwise manage your portfolio in accordance with the Plan and you authorize us to withdraw and invest monies in your Account, as your agent and at your sole risk and account, in the relevant investments;
-            b)	we may effect transactions on any market, exchange and execute counterparty and account opening documentation on your behalf and take all routine or day-to-day decisions and otherwise act as we may consider appropriate in its sole and absolute discretion; we may enter into any kind of transactions or arrangement for you and to invest in any types or investments or other assets and, without limitation, to close out transactions, deal with your assets including selling such assets or settling a sale order on your behalf;
-            c)	you understand the additional risks of giving us discretionary powers to manage your assets and investments on your behalf;
-            d)	all transactions, arrangements entered into and actions taken by us on your behalf, including the collection, delivery and receipt of funds or assets, all payments, closing out and unwinding or transactions, will be made by us as your agent, for your sole account and at your sole risk;
-            e)	we may determine how transactions are to be carried out including investment timing and duration, or decide to use or refrain from using measures to Shariah Compliant hedge against price, currency or interest/profit risks, choose investment instruments which appear appropriate for hedging and use any other measures to optimize returns on existing investments as we may in our absolute discretion, deem fit provided always that the Transactions, arrangements and actions taken on your behalf are within the relevant Investment Strategy;
-            f)	Without prejudice to any other clause, you agree that we may at any time arrange to buy or sell investments on your behalf in your Account:
-            i.	in order to re-balance your portfolio from time to time in accordance with the Target Asset Allocation recommended in your Plan; or
+            3.7.	We will act on your instructions, indicated by your approval of the Plan, and pursuant thereto you agree that:<br/>
+            a)	we may recommend Investments to you or otherwise manage your portfolio in accordance with the Plan and you authorize us to withdraw and invest monies in your Account, as your agent and at your sole risk and account, in the relevant investments;<br/>
+            b)	we may effect transactions on any market, exchange and execute counterparty and account opening documentation on your behalf and take all routine or day-to-day decisions and otherwise act as we may consider appropriate in its sole and absolute discretion; we may enter into any kind of transactions or arrangement for you and to invest in any types or investments or other assets and, without limitation, to close out transactions, deal with your assets including selling such assets or settling a sale order on your behalf;<br/>
+            c)	you understand the additional risks of giving us discretionary powers to manage your assets and investments on your behalf;<br/>
+            d)	all transactions, arrangements entered into and actions taken by us on your behalf, including the collection, delivery and receipt of funds or assets, all payments, closing out and unwinding or transactions, will be made by us as your agent, for your sole account and at your sole risk;<br/>
+            e)	we may determine how transactions are to be carried out including investment timing and duration, or decide to use or refrain from using measures to Shariah Compliant hedge against price, currency or interest/profit risks, choose investment instruments which appear appropriate for hedging and use any other measures to optimize returns on existing investments as we may in our absolute discretion, deem fit provided always that the Transactions, arrangements and actions taken on your behalf are within the relevant Investment Strategy;<br/>
+            f)	Without prejudice to any other clause, you agree that we may at any time arrange to buy or sell investments on your behalf in your Account:<br/>
+            i.	in order to re-balance your portfolio from time to time in accordance with the Target Asset Allocation recommended in your Plan; or<br/>
             ii.	to reflect an adjustment to your Target Asset Allocation for your Account as determined by Nuqi from time to time. Nuqi’s rebalancing methodology is detailed on www.nuqiwealth.com <br/>
 
             3.8.	We may amend your investment strategy, Plan and/or Target Asset Allocation to allow for general market and economic conditions, and/or any other factors which we consider to be relevant.<br/>
@@ -982,9 +977,9 @@ const Privacy = () => {
             4.1.	We strongly recommend that you contact us if there is a change in your personal circumstances which would affect your investor profile. Please contact us if there is anything else that has changed which you think should be considered in terms of your Plan.<br/>
             4.2.	We will contact you every one to three years with a view to obtaining from you an update on your personal circumstances and investor profile. If you do not respond or provide us with the information we ask for, we will not be able to (and accordingly have no obligation) update your Account and/or Plan.<br/>
             4.3.	You may however, contact us at any time if you wish to discuss your Plan or the allocation to or performance of investments in your Account. <br/>
-            4.4.	Should you contact us or respond to our request for an annual review, we may agree to provide you with a revised personal recommendation. In this event, we may issue you a revised recommended Plan.<br/>
+            4.4.	Should you contact us or respond to our request for an annual review, we may agree to provide you with a revised personal recommendation. In this event, we may issue you a revised recommended Plan.<br/> <br/>
 
-            5.	Instructions to Nuqi              <p className="font-bold text-xl text-white">5.	Instructions to Nuqi </p>
+                       <p className="font-bold text-xl text-white">5.	Instructions to Nuqi </p>
 
 
             5.1.	Nuqi will act on your instructions to undertake (on your behalf) such actions as may reasonably be required for Nuqi to pass orders on your behalf.<br/>
@@ -1035,9 +1030,9 @@ const Privacy = () => {
 
             10.5.	This Agreement constitutes the entire agreement between the parties and supersedes and extinguishes all previous agreements, promises, assurances, warranties, representations and understandings between them, whether written or oral, relating to its subject matter. You and Nuqi agree that neither party will have any remedy in respect of any statement, representation, assurance or warranty (whether made innocently or negligently) that is not set out in this Agreement. Each party agrees that it shall have no claim for innocent or negligent misrepresentation or negligent misstatement based on any statement in this Agreement.<br/><br/>
 
-            <p className="font-bold text-xl text-white"> 11.Governing Law</p><br/>
+            <p className="font-bold text-xl text-white"> 11.Governing Law</p>
 
-            11.1.	The provision of services to you under this Agreement will be governed by and construed in accordance with the laws of England. The exclusive place of jurisdiction for any disputes arising out of and/or in connection with this Agreement will be the courts of the DIFC.<br/><br/>
+            11.1.	The provision of services to you under this Agreement will be governed by and construed in accordance with the laws of England. The exclusive place of jurisdiction for any disputes arising out of and/or in connection with this Agreement will be the courts of the DIFC.<br/>
 
             11.2.	However, we reserve the right to take legal action against you before the courts of the country in which you are resident or before any other competent authority. 
 

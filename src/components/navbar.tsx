@@ -83,12 +83,12 @@ function DesktopNavigation() {
           onClick={(e) => handleScrollToSection(e, "/#nuqiprive")}>
           Prive
         </NavItem>
-        <NavItem
+        {/* <NavItem
           href="/iris"
           isActive={activeTab === "/iris"}
           onClick={() => setActiveTab("/iris")}>
           IRIS
-        </NavItem>
+        </NavItem> */}
         <NavItem
           href="/ethosphere"
           isActive={activeTab === "/ethosphere"}
@@ -170,9 +170,9 @@ function MobileNavigation() {
                     onClick={(e) => handleScrollToSection(e, "#nuqiprive")}>
                     Prive
                   </NavItem>
-                  <NavItem href="/iris" isActive={false} onClick={() => setActiveTab("/iris")}>
+                  {/* <NavItem href="/iris" isActive={false} onClick={() => setActiveTab("/iris")}>
                     IRIS
-                  </NavItem>
+                  </NavItem> */}
                   <NavItem
                     href="/ethosphere"
                     isActive={false}
@@ -221,16 +221,6 @@ function CountrySelect() {
           <Globe className="text-white" />
         </SelectTrigger>
         <SelectContent className="bg-black text-white border border-cyan-400 rounded-xl">
-          <SelectItem value="india">
-            <div className="flex items-center">
-              <img
-                className="w-6 h-6 object-contain mr-2"
-                src="/india.jpg"
-                alt="India"
-              />
-              India
-            </div>
-          </SelectItem>
           <SelectItem value="uae">
             <div className="flex items-center">
               <img
@@ -241,6 +231,17 @@ function CountrySelect() {
               UAE
             </div>
           </SelectItem>
+          <SelectItem value="india">
+            <div className="flex items-center">
+              <img
+                className="w-6 h-6 object-contain mr-2"
+                src="/india.jpg"
+                alt="India"
+              />
+              India
+            </div>
+          </SelectItem>
+
         </SelectContent>
       </Select>
     </div>
@@ -314,11 +315,11 @@ export function Navbar() {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
               >
-                <Popover.Panel className="absolute z-10 justify-center items-center -mr-6 mt-2 w-24 h-14 bg-black border border-cyan-400 rounded-2xl shadow-lg top-full right-0">
+                <Popover.Panel className="absolute z-10 justify-center items-center -mr-6  w-24 h-16 sm:-mt-3 bg-black border border-cyan-400 rounded-2xl shadow-lg top-full right-0">
                   <div className="flex flex-col py-2">
                     <a href="http://portal.nuqiwealth.com/signin" target="_blank" rel="noopener noreferrer">
                       <button className="flex items-center px-4 py-1 text-sm text-white hover:bg-cyan-400 hover:text-black">
-                        <span className="ml-2">Log In</span>
+                        <span className="ml-2">Login</span>
                       </button>
                     </a>
                     <a href="http://portal.nuqiwealth.com/signup" target="_blank" rel="noopener noreferrer">

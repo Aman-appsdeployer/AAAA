@@ -4,6 +4,7 @@ import { ChevronDown, Grid, List } from "lucide-react"; // Add Grid and List ico
 import { useMemo, useState } from "react";
 import "../../styles/ethosphere.css";
 
+
 import {
   Select,
   SelectContent,
@@ -18,7 +19,13 @@ const Ethosphere = () => {
   const [selectedMonth, setSelectedMonth] = useState<string>("none");
   const [viewMode, setViewMode] = useState<"carousel" | "grid">("carousel"); // State to toggle between carousel and grid view
 
-  const yearOptions = [{ label: "2024", value: "2024" }];
+  // const yearOptions = [{ label: "2024",  value: "2024" }];
+  const yearOptions = [
+    { label: "2024", value: "2024" },
+    { label: "2025", value: "2025" }, // Added 2025 option
+  ];
+
+
 
   const monthOptions = [
     { label: "All", value: "none" },
@@ -41,10 +48,10 @@ const Ethosphere = () => {
       selectedMonth === "none"
         ? blogs.filter((blog) => blog.date.includes(selectedYear))
         : blogs.filter(
-            (blog) =>
-              blog.date.includes(selectedYear) &&
-              blog.date.includes(selectedMonth)
-          );
+          (blog) =>
+            blog.date.includes(selectedYear) &&
+            blog.date.includes(selectedMonth)
+        );
     return filteredBlogs.reverse();
   }, [selectedYear, selectedMonth]);
 

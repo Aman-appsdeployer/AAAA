@@ -132,7 +132,7 @@ const teamData = [
     name: "Irfan Mulla",
     role: "Head of Marketing",
     image: "/team/ab-4.png",
-    linkedin: "https://www.linkedin.com/in/irfan-mulla/",
+    linkedin: "https://www.linkedin.com/in/irfan-mulla-digital/",
     description:
       "Advertising and Marketing lead with focused digital ecosystem marketing experience across AMEA regions. Statistics graduate with over 25 years of industry experience.",
   },
@@ -156,7 +156,7 @@ const teamData = [
     name: "Sohail Shafiq",
     role: "Global Head of Ethical Finance",
     image: "/team/ab-7.jpeg",
-    linkedin: "https://www.linkedin.com/in/sohail-shafiq/",
+    linkedin: "https://www.linkedin.com/in/sohail-shafiq-7779279/",
     description:
       "Sohail brings over 20 years of experience in Islamic banking, having worked with leading institutions like EY and Standard Chartered. He specializes in product development, branch setups, and advising on Islamic finance.",
   },

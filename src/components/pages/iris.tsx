@@ -301,7 +301,7 @@ const Iris = () => {
           </p>
         </div>
       </div>
-      
+
 
       {/* <div className="flex w-full justify-center  items-center">
         <div className=" self-center mx-4  font-poppins lg:max-w-screen-xl border-2 border-cyan-400 bg-black p-6 rounded-3xl  lg:mx-36 mt-10 bg-gradient-to-b from-[#1d1d1f] to-[#0d0d0d]  hover:!bg-black hover:!bg-none hover:shadow-[inset_0_0_20px_#0dd3ff]  transition-all duration-300 ease-in-out">
@@ -573,7 +573,7 @@ const Iris = () => {
                             </div>
                           </TableCell> */}
                         </TableRow>
-                        <TableRow>
+                        {/* <TableRow>
                           <TableCell className="font-normal md:font-medium md:hidden md:px-8 px-3">
                             {!isUserLogedIn && index === 3 && (
                               <button
@@ -603,7 +603,7 @@ const Iris = () => {
                           </TableCell>
                           <TableCell></TableCell>
                           <TableCell></TableCell>
-                        </TableRow>
+                        </TableRow> */}
                       </>
                     ) : (
                       <TableRow
@@ -697,9 +697,12 @@ const Iris = () => {
                 <label className="font-normal text-xs leading-4 text-white">
                   Subscribe for updates
                 </label>
-                <span className="font-semibold text-xs leading-3 text-white">
+                {/* <span className="font-semibold text-xs leading-3 text-white">
                   Subscribe to this weekly newsletter so you don’t miss out on
                   the new hot tech topics.
+                </span> */}
+                <span className="font-semibold text-xl  leading-3 text-white">
+                  Sign-Up to unlock
                 </span>
               </div>
               {error1 && error1.error && (
