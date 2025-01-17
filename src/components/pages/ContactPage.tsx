@@ -12,7 +12,8 @@ export const ContactsPage: React.FC = () => {
 
   return (
     <div className="flex flex-col bg-black min-h-screen pb-20">
-      <div className="h-[10rem] w-full flex -mt-8 flex-col items-center justify-center overflow-hidden rounded-md">
+      <div c
+      lassName="h-[10rem] w-full flex -mt-8 flex-col items-center justify-center overflow-hidden rounded-md">
         <h2 className="text-3xl pb-5 font-poppins font-medium leading-6 tracking-wide text-cyan-400 hover:text-cyan-400 sm:text-4xl lg:text-4xl">
           Contact Us
         </h2>
