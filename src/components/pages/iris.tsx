@@ -774,7 +774,7 @@ const Iris = () => {
           <div className="fixed h-screen w-screen bg-black z-10 top-0 opacity-75 "></div>
           {/** Just added */}
           <div className="fixed h-screen top-0 right-0 left-0 z-20 flex justify-center items-center">
-            <div className="mx-4 my-4 bg-slate-200 p-7 rounded-xl  py-2 md:py-6 md:px-8 flex flex-col gap-8 border border-secondary/25 shadow-md">
+            <div className="mx-4 my-4 bg-black p-7 rounded-xl  py-2 md:py-6 md:px-8 flex flex-col gap-8 border border-secondary/25 shadow-md">
               <div className="flex justify-end">
                 <button
                   onClick={() => {
@@ -783,15 +783,15 @@ const Iris = () => {
                     setError1(null);
                   }}
                 >
-                  <Cross1Icon className="mb-2 h-5 w-5" />
+                  <Cross1Icon className="mb-2 h-5 w-5 text-white"  />
                 </button>
               </div>
               <div className="w-full justify-center items-center">
-                <LockClosedIcon className="mb-2 h-10 w-10" />
-                <h1 className="text-black text-xl font-medium ">
+                <LockClosedIcon className="mb-2 h-10 w-10 text-white" />
+                <h1 className="text-white text-xl font-medium ">
                   Verify OTP to Unlock
                 </h1>
-                <p className="text-black mb-5 text-sm">
+                <p className="text-white mb-5 text-sm">
                   Last step to unlock all list.
                 </p>
                 {error2 && error2.error && (
@@ -803,10 +803,10 @@ const Iris = () => {
                   type="text"
                   onChange={(e) => setOTP(e.target.value)}
                   placeholder="OTP"
-                  className="border-2 border-slate-500 rounded-md p-2 w-full "
+                  className="border-2  rounded-3xl bg-black text-white p-2 w-full "
                 />
                 <button
-                  className="md:col-start-2 self-center mt-5 inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#3d4957,45%,#1e2631,55%,#3d4957)] bg-[length:200%_100%] px-4 lg:px-6 font-medium text-background transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 whitespace-nowrap"
+                  className="md:col-start-2 self-center mt-5 inline-flex h-12 animate-shimmer items-center justify-center rounded-3xl  text-black bg-cyan-500  px-4 lg:px-6 font-medium  whitespace-nowrap"
                   onClick={(event) => {
                     event.preventDefault();
                     onVerifyOTP()
