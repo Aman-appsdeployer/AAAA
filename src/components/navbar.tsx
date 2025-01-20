@@ -83,12 +83,12 @@ function DesktopNavigation() {
           onClick={(e) => handleScrollToSection(e, "/#nuqiprive")}>
           Prive
         </NavItem>
-        {/* <NavItem
+        <NavItem
           href="/iris"
           isActive={activeTab === "/iris"}
           onClick={() => setActiveTab("/iris")}>
           IRIS
-        </NavItem> */}
+        </NavItem>
         <NavItem
           href="/ethosphere"
           isActive={activeTab === "/ethosphere"}

@@ -69,6 +69,7 @@ const Iris = () => {
     const response = await axios({
       method: "post",
       url: "https://emailer-pro.up.railway.app/api/v1/mail/send/otp",
+      // url: "http://localhost:3000/api/v1/mail/send/otp",
       data: {
         to,
         subject: "Your One-Time Password for IRIS – NUQI Wealth!",
@@ -91,12 +92,14 @@ const Iris = () => {
   };
 
   const [error2, setError2] = useState<Error | null>(null);
-  const verifyMailedOTP = async (to: string, otp: string, hash: string) => {
+  const verifyMailedOTP = async (to: string, name: string, otp: string, hash: string) => {
     const response = await axios({
       method: "post",
       url: "https://emailer-pro.up.railway.app/api/v1/mail/verify/otp",
+      // url: "http://localhost:3000/api/v1/mail/verify/otp",
       data: {
         email: to,
+        name: name,
         otp,
         hash,
       },
@@ -129,7 +132,7 @@ const Iris = () => {
 
   const [otp, setOTP] = useState("");
   const onVerifyOTP = async () => {
-    const status = await verifyMailedOTP(email, otp, otpHash);
+    const status = await verifyMailedOTP(email, name, otp, otpHash);
     if (status) {
       setShowOTPSection(false);
       setIsUserLogedIn(true);
@@ -573,7 +576,7 @@ const Iris = () => {
                             </div>
                           </TableCell> */}
                         </TableRow>
-                        {/* <TableRow>
+                        <TableRow>
                           <TableCell className="font-normal md:font-medium md:hidden md:px-8 px-3">
                             {!isUserLogedIn && index === 3 && (
                               <button
@@ -603,7 +606,7 @@ const Iris = () => {
                           </TableCell>
                           <TableCell></TableCell>
                           <TableCell></TableCell>
-                        </TableRow> */}
+                        </TableRow>
                       </>
                     ) : (
                       <TableRow
@@ -736,7 +739,7 @@ const Iris = () => {
                 />
               </div>
 
-              <div className="w-72 relative">
+              {/* <div className="w-72 relative">
                 <div className="flex border-2 border-[rgb(200, 200, 200)] rounded-3xl relative">
                   <span className="flex items-center border-r border-[rgb(200, 200, 200)] px-3 text-white text-xs">
                     +971
@@ -750,11 +753,14 @@ const Iris = () => {
                     placeholder="Phone number"
                   />
                 </div>
-              </div>
+              </div> */}
               <button
                 className="flex flex-row justify-center items-center px-4 py-2 gap-2 w-full h-10 bg-gradient-to-b from-cyan-400 to-cyan-500 shadow-sm rounded-3xl border-0 font-semibold text-xs text-white"
-                type="submit"
-                onClick={onSendOTP}
+                // type="submit"
+                onClick={(event) => {
+                  event.preventDefault();
+                  onSendOTP()
+                }}
               >
                 Submit
               </button>
@@ -801,7 +807,10 @@ const Iris = () => {
                 />
                 <button
                   className="md:col-start-2 self-center mt-5 inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#3d4957,45%,#1e2631,55%,#3d4957)] bg-[length:200%_100%] px-4 lg:px-6 font-medium text-background transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 whitespace-nowrap"
-                  onClick={onVerifyOTP}
+                  onClick={(event) => {
+                    event.preventDefault();
+                    onVerifyOTP()
+                  }}
                 >
                   Verify OTP
                 </button>

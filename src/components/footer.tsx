@@ -118,7 +118,7 @@ export function Footer() {
           >
             Prive
           </a>
-          {/* <a
+          <a
             href="/IRIS"
             className={`${
               isActive("/IRIS")
@@ -128,7 +128,7 @@ export function Footer() {
             onClick={() => setActiveTab("/IRIS")}
           >
             IRIS
-          </a> */}
+          </a>
           <a
             href="/ethosphere"
             className={`${
