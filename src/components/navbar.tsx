@@ -170,9 +170,9 @@ function MobileNavigation() {
                     onClick={(e) => handleScrollToSection(e, "#nuqiprive")}>
                     Prive
                   </NavItem>
-                  {/* <NavItem href="/iris" isActive={false} onClick={() => setActiveTab("/iris")}>
+                   <NavItem href="/iris" isActive={false} onClick={() => setActiveTab("/iris")}>
                     IRIS
-                  </NavItem> */}
+                  </NavItem> 
                   <NavItem
                     href="/ethosphere"
                     isActive={false}
