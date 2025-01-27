@@ -1,7 +1,7 @@
 import {
   ArrowDownUp
 } from "lucide-react";
-//   import { Input } from "../ui/input";
+//  import { Input } from "../ui/input";
 import { irisRegions } from "@/lib/iris-sectors";
 import { useEffect, useState } from "react";
 import {
@@ -119,7 +119,7 @@ const Iris = () => {
   const [email, setEmail] = useState("");
   const [otpHash, setOTPHash] = useState(``);
   const [name, setName] = useState("");
-  const [number, setNumber] = useState("");
+  // const [number, setNumber] = useState("");
 
   const onSendOTP = async () => {
     const hash = await otpMailer(email);
@@ -783,7 +783,7 @@ const Iris = () => {
                     setError1(null);
                   }}
                 >
-                  <Cross1Icon className="mb-2 h-5 w-5 text-white"  />
+                  <Cross1Icon className="mb-2 h-5 w-5 text-white" />
                 </button>
               </div>
               <div className="w-full justify-center items-center">
@@ -824,6 +824,8 @@ const Iris = () => {
 };
 
 export default Iris;
+
+
 
 // import {
 //   ArrowDownUp
