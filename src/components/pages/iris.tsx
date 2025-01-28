@@ -783,7 +783,7 @@ const Iris = () => {
                     setError1(null);
                   }}
                 >
-                  <Cross1Icon className="mb-2 h-5 w-5 text-white" />
+                  <Cross1Icon className="mb-2 h-5 w-5 text-white"  />
                 </button>
               </div>
               <div className="w-full justify-center items-center">
